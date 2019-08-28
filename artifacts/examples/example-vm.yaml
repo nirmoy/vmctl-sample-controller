@@ -1,0 +1,7 @@
+apiVersion: samplecontroller.k8s.io/v1alpha1
+kind: VM
+metadata:
+  name: example-vm
+  namespace: kube-system
+spec:
+  name: example-vm
